@@ -43,7 +43,6 @@ public class CameraManager : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        float pinchAmount = 0;
         Quaternion desiredRotation = transform.rotation;
 
         DetectTouchMovement.Calculate();
